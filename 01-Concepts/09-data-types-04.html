@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Primitive Data Types</title>
+</head>
+<body>
+    <h1>Non-Primitive Data Types</h1>
+    <script>
+        // data types
+        // non-primitive data types
+        // functions
+        function name(){
+            name="Manikanta"
+            console.log(name)
+        }
+        name()
+
+        // using parameters
+        const platform="CodeHub"
+        function getStudentDetails(studentName, studentScore, isCompleted){
+            let summary=`Student ${studentName} scored ${studentScore} on ${platform}. Completed: ${isCompleted}`
+            return summary
+        }
+        const result=getStudentDetails("Manikanta", 95, true)
+        console.log(result)
+
+        // date
+        const currentDate= new Date()
+        console.log(currentDate)
+
+        // RegExp
+        const pattern=/hello/i
+        console.log(pattern)
+        
+    </script>
+</body>
+</html>

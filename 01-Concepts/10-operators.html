@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <h1>Operators</h1>
+    <script>
+        // operators
+        // Arithmetic Operators
+        let a = 10;
+        let b = 3;
+
+        console.log(a + b);  // 13
+        console.log(a - b);  // 7
+        console.log(a * b);  // 30
+        console.log(a / b);  // 3.3333333333333335
+        console.log(a % b);  // 1
+        console.log(a ** b); // 1000
+
+
+        // Increment and Decrement
+        let count = 5;
+
+        console.log(count++); // 5
+        console.log(count--); // 6
+        console.log(++count); // 6
+        console.log(--count); // 5
+
+
+        // Assignment Operators
+        let x = 10;
+
+        x += 5;
+        console.log(x); // 15
+
+        x -= 3;
+        console.log(x); // 12
+
+        x *= 2;
+        console.log(x); // 24
+
+        x /= 4;
+        console.log(x); // 6
+
+        x %= 4;
+        console.log(x); // 2
+
+        x **= 3;
+        console.log(x); // 8
+
+
+        // Comparison Operators
+        let num1 = 10;
+        let num2 = "10";
+        let num3 = 20;
+
+        console.log(num1 == num2);  // true
+        console.log(num1 === num2); // false
+        console.log(num1 != num2);  // false
+        console.log(num1 !== num2); // true
+        console.log(num1 > num3);   // false
+        console.log(num1 < num3);   // true
+        console.log(num1 >= 10);    // true
+        console.log(num1 <= 5);     // false
+
+
+        // Logical Operators
+        let isLogged = true;
+        let hasAccess = false;
+
+        console.log(isLogged && hasAccess); // false
+        console.log(isLogged || hasAccess); // true
+        console.log(!isLogged);             // false
+
+
+        // Bitwise Operators
+        let p = 5;
+        let q = 3;
+
+        console.log(p & q);   // 1
+        console.log(p | q);   // 7
+        console.log(p ^ q);   // 6
+        console.log(~p);      // -6
+        console.log(p << 1);  // 10
+        console.log(p >> 1);  // 2
+        console.log(p >>> 1); // 2
+    </script>
+</body>
+</html>
