@@ -1,0 +1,36 @@
+// data types
+// non-primitive data types
+// object
+const employeeAddress={
+    presentAddress:"Present Address",
+    currentAddress:"Current Address"
+}
+
+const employeeSalary={
+    salary:25000,
+    bonus:5000
+}
+
+const employeeDetails={
+    employeeId:101,
+    employeeName:"Manikanta",
+    employeeAddress:employeeAddress,
+    employeeSalary:employeeSalary
+}
+console.log(employeeDetails)
+console.log(typeof employeeDetails)
+// create
+employeeDetails.position="Team Lead"
+console.log(employeeDetails)
+
+// read
+let empidId=employeeDetails.employeeId
+console.log(empidId)
+
+// update
+employeeDetails.employeeId=201
+console.log(employeeDetails.employeeId)
+
+// delete
+delete employeeDetails.employeeId
+console.log(employeeDetails)
