@@ -5,96 +5,97 @@
 // }
 
 // Increment ++
-for (let forIncrement = 1; forIncrement <= 5; forIncrement++) {
-    console.log(forIncrement)
+for (let i = 1; i <= 5; i++) {
+    console.log(i)
 }
 
 // Decrement --
-for (let forDecrement = 10; forDecrement >= 5; forDecrement--) {
-    console.log(forDecrement)
+for (let j = 10; j >= 5; j--) {
+    console.log(j)
 }
 
 // +=
-let additionResult = 5
-additionResult += 5
-console.log(additionResult)
+let k = 5
+k += 5
+console.log(k)
 
 // -=
-let subtractionResult = 10
-subtractionResult -= 8
-console.log(subtractionResult)
+let l = 10
+l -= 8
+console.log(l)
 
 // while Loop
 // Increment ++
-let whileIncrement = 1
-while (whileIncrement <= 5) {
-    console.log(whileIncrement)
-    whileIncrement++
+let m = 1
+while (m <= 5) {
+    console.log(m)
+    m++
 }
 
 // Decrement --
-let whileDecrement = 10
-while (whileDecrement >= 5) {
-    console.log(whileDecrement)
-    whileDecrement--
+let n = 10
+while (n >= 5) {
+    console.log(n)
+    n--
 }
 
 // Even Numbers
-let evenNumber = 2
-while (evenNumber <= 10) {
-    console.log(evenNumber)
-    evenNumber += 2
+let o = 2
+while (o <= 10) {
+    console.log(o)
+    o += 2
 }
 
 // do...while
 // Increment (++)
-let doWhileIncrement = 1
+let p = 1
 do {
-    console.log(doWhileIncrement)
-    doWhileIncrement++
-} while (doWhileIncrement <= 5)
+    console.log(p)
+    p++
+} while (p <= 5)
 
 // Decrement (--)
-let doWhileDecrement = 5
+let q = 5
 do {
-    console.log(doWhileDecrement)
-    doWhileDecrement--
-} while (doWhileDecrement >= 1)
+    console.log(q)
+    q--
+} while (q >= 1)
 
 // break
 // using for
-for (let breakForCounter = 1; breakForCounter <= 10; breakForCounter++) {
-    if (breakForCounter === 5) {
+for (let r = 1; r <= 10; r++) {
+    if (r === 5) {
         break
     }
-    console.log(breakForCounter)
+    console.log(r)
 }
 
 // using while
-let breakWhileCounter = 10
-while (breakWhileCounter >= 1) {
-    if (breakWhileCounter === 5) {
+let s = 10
+while (s >= 1) {
+    if (s === 5) {
         break
     }
-    console.log(breakWhileCounter)
-    breakWhileCounter--
+    console.log(s)
+    s--
 }
 
 // continue
-for (let continueCounter = 1; continueCounter <= 10; continueCounter++) {
-    if (continueCounter === 5) {
+for (let t = 1; t <= 10; t++) {
+    if (t === 5) {
         continue
     }
-    console.log(continueCounter)
+    console.log(t)
 }
 
 // Nested Loop
-for (let outerCounter = 1; outerCounter <= 3; outerCounter++) {
-    for (let innerCounter = 1; innerCounter <= 2; innerCounter++) {
-        console.log(outerCounter, innerCounter)
+for (let u = 1; u <= 3; u++) {
+    for (let v = 1; v <= 2; v++) {
+        console.log(u, v)
     }
 }
 
+<<<<<<< HEAD
 for (
     let productOuterCounter = 1;
     productOuterCounter <= 3;
@@ -106,6 +107,11 @@ for (
         productInnerCounter++
     ) {
         console.log(productOuterCounter * productInnerCounter)
+=======
+for (let w = 1; w <= 3; w++) {
+    for (let x = 1; x <= 2; x++) {
+        console.log(w * x)
+>>>>>>> f43af345162e7ca1c33747337e83cd75774fc947
     }
 }
 
@@ -115,14 +121,20 @@ const student = {
     course: "CSE",
 }
 
-for (let key in student) {
-    console.log(key)
-    console.log(student[key])
-    console.log(key, student[key])
+for (let y in student) {
+    console.log(y)
+    console.log(student[y])
+    console.log(y, student[y])
 }
 
 const fruits = ["Apple", "Banana", "Mango"]
 
+<<<<<<< HEAD
 for (let fruit of fruits) {
     console.log(fruit)
 }
+=======
+for (let z of fruits) {
+    console.log(z)
+}
+>>>>>>> f43af345162e7ca1c33747337e83cd75774fc947
