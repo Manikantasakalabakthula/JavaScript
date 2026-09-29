@@ -1,3 +1,3 @@
-let firstName="Manikanta"
-let lastName="Sakalabakthula"
+let firstName = "Manikanta"
+let lastName = "Sakalabakthula"
 console.log(`${firstName} ${lastName}`)

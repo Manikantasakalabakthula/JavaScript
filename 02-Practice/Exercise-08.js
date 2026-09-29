@@ -1,0 +1,28 @@
+// Write your JavaScript here
+let myString = "Manikanta"
+console.log(typeof myString)
+
+let myNumber = 23
+console.log(typeof myNumber)
+
+let isLearningJs = true
+console.log(typeof isLearningJs)
+
+let employeeDetials = {
+    employeeId: 1,
+    employeeName: "Manikanta",
+    employeeAge: 23,
+}
+console.log(typeof employeeDetials)
+
+let myArray = ["Apple", "Banana", "Grapes"]
+console.log(typeof myArray)
+
+function fun() {
+    console.log("Hello, my name is Manikanta")
+}
+fun()
+console.log(typeof fun)
+
+const myDate = new Date()
+console.log(typeof myDate)

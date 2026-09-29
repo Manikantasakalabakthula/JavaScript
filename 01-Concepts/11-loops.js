@@ -1,7 +1,7 @@
 // for Loop
 // syntax
 // for (initialization; condition; update) {
-    // code to repeat
+// code to repeat
 // }
 
 // Increment ++
@@ -95,8 +95,16 @@ for (let outerCounter = 1; outerCounter <= 3; outerCounter++) {
     }
 }
 
-for (let productOuterCounter = 1; productOuterCounter <= 3; productOuterCounter++) {
-    for (let productInnerCounter = 1; productInnerCounter <= 2; productInnerCounter++) {
+for (
+    let productOuterCounter = 1;
+    productOuterCounter <= 3;
+    productOuterCounter++
+) {
+    for (
+        let productInnerCounter = 1;
+        productInnerCounter <= 2;
+        productInnerCounter++
+    ) {
         console.log(productOuterCounter * productInnerCounter)
     }
 }
@@ -104,7 +112,7 @@ for (let productOuterCounter = 1; productOuterCounter <= 3; productOuterCounter+
 const student = {
     name: "Manikanta",
     age: 23,
-    course: "CSE"
+    course: "CSE",
 }
 
 for (let key in student) {

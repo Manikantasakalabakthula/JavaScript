@@ -1,14 +1,14 @@
 // Concatenation
-let funName="Manikanta"+" "+"Sakalabakthula"
+let funName = "Manikanta" + " " + "Sakalabakthula"
 console.log(funName)
 
-let message="Hello"
-message+=", how are you?"
+let message = "Hello"
+message += ", how are you?"
 console.log(message)
 
-let age=10
-let greeting=`Hello, you are ${age} years old!`
+let age = 10
+let greeting = `Hello, you are ${age} years old!`
 console.log(greeting)
 
-let areEqual="apple"==="banana"
+let areEqual = "apple" === "banana"
 console.log(areEqual)

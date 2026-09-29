@@ -40,19 +40,19 @@ console.log(firstSymbol === secondSymbol)
 // object
 const employeeAddress = {
     presentAddress: "Present Address",
-    currentAddress: "Current Address"
+    currentAddress: "Current Address",
 }
 
 const employeeSalary = {
     salary: 25000,
-    bonus: 5000
+    bonus: 5000,
 }
 
 const employeeDetails = {
     employeeId: 101,
     employeeName: "Manikanta",
     employeeAddress: employeeAddress,
-    employeeSalary: employeeSalary
+    employeeSalary: employeeSalary,
 }
 console.log(employeeDetails)
 console.log(typeof employeeDetails)
@@ -82,9 +82,9 @@ const studentArray = [
         details: {
             age: 24,
             city: "Visakhapatnam",
-            isActive: true
+            isActive: true,
         },
-        scores: [85, 90, 92]
+        scores: [85, 90, 92],
     },
     {
         id: 2,
@@ -93,9 +93,9 @@ const studentArray = [
         details: {
             age: 27,
             city: "Hyderabad",
-            isActive: false
+            isActive: false,
         },
-        scores: [78, 82, 88]
+        scores: [78, 82, 88],
     },
     {
         id: 3,
@@ -104,10 +104,10 @@ const studentArray = [
         details: {
             age: 22,
             city: "Bengaluru",
-            isActive: true
+            isActive: true,
         },
-        scores: [95, 89, 94]
-    }
+        scores: [95, 89, 94],
+    },
 ]
 console.log(studentArray)
 console.log(studentArray[2].scores[2])

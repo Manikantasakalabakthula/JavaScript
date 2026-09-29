@@ -1,67 +1,64 @@
 // if statement
-let age=20
-if(age>=18){
+let age = 20
+if (age >= 18) {
     console.log("You are eligible!")
 }
 
 // if else statement
-if(age>=18){
+if (age >= 18) {
     console.log("Adult")
-}
-else{
+} else {
     console.log("Minor")
 }
 
 // else if statement
-let marks = 75;
+let marks = 75
 
 if (marks >= 90) {
-    console.log("A");
+    console.log("A")
 } else if (marks >= 60) {
-    console.log("B");
+    console.log("B")
 } else {
-    console.log("C");
+    console.log("C")
 }
 
 // Nested if statement
-let hasID = true;
+let hasID = true
 
 if (age >= 18) {
-
     if (hasID === true) {
-        console.log("Entry allowed");
+        console.log("Entry allowed")
     }
-
 }
 
 // switch
-let day=5
-switch(day){
-    case 1:{
+let day = 5
+switch (day) {
+    case 1: {
         console.log("Monday")
         break
     }
-    case 2:{
+    case 2: {
         console.log("Tuesday")
         break
     }
-    case 3:{
+    case 3: {
         console.log("Wednesday")
         break
     }
-    case 4:{
+    case 4: {
         console.log("Thursday")
         break
     }
-    case 5:{
+    case 5: {
         console.log("Friday")
         break
     }
-    case 6:{
+    case 6: {
         console.log("Saturday")
         break
     }
-    case 7:{
+    case 7: {
         console.log("Sunday")
         break
     }

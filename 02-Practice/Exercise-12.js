@@ -1,0 +1,18 @@
+// Write your JavaScript here
+let studentDetails = {
+    studentName: "Manikanta",
+    studentAge: 23,
+    graduationYear: 2024,
+    isLearningJS: true,
+    skills: ["HTML", "CSS", "Excel"],
+}
+console.log(studentDetails)
+console.log(studentDetails.studentAge + studentDetails.graduationYear)
+console.log(studentDetails.studentName === studentDetails.isLearningJS)
+console.log(
+    studentDetails.studentAge === 23 &&
+        studentDetails.studentName === "Manikanta",
+)
+console.log(
+    `My Name is ${studentDetails.studentName}, ${studentDetails.studentAge} years old, graduated in ${studentDetails.graduationYear}, my JavaScript learning is ${studentDetails.isLearningJS} and my skills are ${studentDetails.skills}`,
+)

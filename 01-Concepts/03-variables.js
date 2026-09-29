@@ -4,25 +4,25 @@ console.log(firstName)
 var firstName
 console.log(firstName)
 
-var firstName=null
+var firstName = null
 console.log(firstName)
 
-var firstName="Manikanta"
+var firstName = "Manikanta"
 console.log(firstName)
 
-firstName="Kowshik"
+firstName = "Kowshik"
 console.log(firstName)
 
-var firstName="Prasad"
+var firstName = "Prasad"
 console.log(firstName)
 
 // let
 // console.log(secondName)  ReferenceError: Cannot access 'secondName' before initialization
 
-let secondName="Sakalabakthula"
+let secondName = "Sakalabakthula"
 console.log(secondName)
 
-secondName="Gokavarapu"
+secondName = "Gokavarapu"
 console.log(secondName)
 
 // let secondName="Chennuru"
@@ -31,7 +31,7 @@ console.log(secondName)
 // const
 // console.log(className) Uncaught ReferenceError: Cannot access 'className' before initialization
 
-const className="HTML"
+const className = "HTML"
 console.log(className)
 
 // className="CSS" TypeError: Assignment to constant variable.
